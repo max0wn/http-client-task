@@ -1,0 +1,20 @@
+{
+    "name": "max0wn/http-client-task",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "HttpClientTask\\HttpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "max0wn",
+            "email": "max0wn@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
